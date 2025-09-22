@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "python-lambda-devops"
+    bucket = "roboshop-project-durgababu"
     key    = "python-auto-start-stop-ec2"
     region = "us-east-1"
     encrypt        = true
